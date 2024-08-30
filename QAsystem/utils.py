@@ -13,7 +13,7 @@ print("Import Successfully")
 def pinecone_config():
     #configuring pinecone database
     document_store = PineconeDocumentStore(
-            environment="gcp-starter",
+            
             index="default",
             namespace="default",
             dimension=768
